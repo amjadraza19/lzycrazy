@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="vid">
+       
+            <video src="vedio.mp4" controls autoplay muted></video>
+            <h3>Aide video</h3>
+        </div>
+
+        <div class="content">
+           <h2>Lorem ipsum <span class="text">dolor sit!!!</span></h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati sed deleniti assumenda sint sequi necessitatibus voluptas quidem voluptatem aliquam, similique optio unde aut error nobis? Deleniti animi earum nam eligendi.
+           Fuga, officiis nulla sed et odio exercitationem dolores eos iure, quis natus nostrum provident eum eaque porro voluptatem. Autem praesentium quidem porro sequi nemo. Similique, iure in. Quis, odio quibusdam!
+           Inventore hic minima, optio ut ducimus reprehenderit asperiores nostrum dignissimos ab sapiente! Sunt veritatis asperiores amet commodi consectetur corrupti quibusdam aut explicabo corporis, autem maxime, ea atque at totam consequuntur!
+           Odio, itaque maxime recusandae dignissimos, deserunt blanditiis nobis fuga molestiae commodi atque explicabo assumenda eaque quas odit quisquam cupiditate libero vel voluptate nisi ut esse impedit dolore facere. Illo, consectetur!</p>
+           <button id="contactButton">Contact Us</button>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" id="mobile" name="mobile" required>
+                <label for="message">Message:</label>
+                <textarea class="msg" id="message" name="message" rows="4" required></textarea>
+                <input class="btn" type="button" value="Submit" onclick="submitForm()">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
